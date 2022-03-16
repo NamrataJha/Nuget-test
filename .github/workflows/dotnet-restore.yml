@@ -20,7 +20,7 @@ jobs:
         env:
           NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: Restore Nuget packages
-        run: dotnet restore -p:PackageVersion=${{ github.sha }}
+        run: dotnet restore -p:PackageVersion=${{ github.sha }}.0.0
       - name: Create the nuget package
         run: dotnet pack nuget-test.csproj --configuration Release --no-build --output bin/Release/Publish
       - name: Publish to GitHub
