@@ -19,13 +19,8 @@ jobs:
           source-url: https://nuget.pkg.github.com/namratajha/index.json
         env:
           NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      - name: Get current date
-        id: date
-        run: echo "::set-output name=date::$(date +'%Y.%m.%d')"
-      - name: set env
-        run: echo "version=${{ steps.date.outputs.date }}" >> $GITHUB_ENV
       - name: Restore Nuget packages
-        run: dotnet restore -p:PackageVersion=${{ steps.date.outputs.date }}
+        run: dotnet restore
       - name: Create the nuget package
         run: dotnet pack nuget-test.csproj --configuration Release --no-build --output bin/Release/Publish
       - name: Publish to GitHub
