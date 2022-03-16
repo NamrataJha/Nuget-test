@@ -21,7 +21,13 @@ jobs:
           NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: Restore Nuget packages
         run: dotnet restore
+        env:
+          sha: ${{ github.sha }}
       - name: Create the nuget package
         run: dotnet pack nuget-test.csproj --configuration Release --no-build --output bin/Release/Publish
+        env:
+          sha: ${{ github.sha }}
       - name: Publish to GitHub
         run: dotnet nuget push bin/Release/Publish/**/*.nupkg --skip-duplicate
+        env:
+          sha: ${{ github.sha }}
