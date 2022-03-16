@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tqj2cHkGBhcYp5c82c5JXaxTL4UTD5ZfDUyBZAfJRH1H+teV3iYEjtfQKGt/Kc9b2rWqLnYU8u6cxUWka/wILA==",
+  "dgSpecHash": "aQRCX9bvIUdyAfFL/twsazRiqVsyrLBzRU8bcFlpyjpQSoboFTb8JnPmE9cwRdFGdkwBEUYagoKYs5ZL/WQx+A==",
   "success": true,
-  "projectFilePath": "/Users/namratajha/GithubMe/Nuget-test/Nuget-test.csproj",
+  "projectFilePath": "/Users/namratajha/GithubMe/Nuget-test/nuget-test.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

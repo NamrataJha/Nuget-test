@@ -1,0 +1,12 @@
+/Users/namratajha/GithubMe/Nuget-test/bin/Release/net5.0/nuget-test.deps.json
+/Users/namratajha/GithubMe/Nuget-test/bin/Release/net5.0/nuget-test.dll
+/Users/namratajha/GithubMe/Nuget-test/bin/Release/net5.0/ref/nuget-test.dll
+/Users/namratajha/GithubMe/Nuget-test/bin/Release/net5.0/nuget-test.pdb
+/Users/namratajha/GithubMe/Nuget-test/obj/Release/net5.0/nuget-test.csproj.AssemblyReference.cache
+/Users/namratajha/GithubMe/Nuget-test/obj/Release/net5.0/nuget-test.GeneratedMSBuildEditorConfig.editorconfig
+/Users/namratajha/GithubMe/Nuget-test/obj/Release/net5.0/nuget-test.AssemblyInfoInputs.cache
+/Users/namratajha/GithubMe/Nuget-test/obj/Release/net5.0/nuget-test.AssemblyInfo.cs
+/Users/namratajha/GithubMe/Nuget-test/obj/Release/net5.0/nuget-test.csproj.CoreCompileInputs.cache
+/Users/namratajha/GithubMe/Nuget-test/obj/Release/net5.0/nuget-test.dll
+/Users/namratajha/GithubMe/Nuget-test/obj/Release/net5.0/ref/nuget-test.dll
+/Users/namratajha/GithubMe/Nuget-test/obj/Release/net5.0/nuget-test.pdb

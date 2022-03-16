@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/namratajha/GithubMe/Nuget-test/Nuget-test.csproj": {}
+    "/Users/namratajha/GithubMe/Nuget-test/nuget-test.csproj": {}
   },
   "projects": {
-    "/Users/namratajha/GithubMe/Nuget-test/Nuget-test.csproj": {
+    "/Users/namratajha/GithubMe/Nuget-test/nuget-test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/namratajha/GithubMe/Nuget-test/Nuget-test.csproj",
+        "projectUniqueName": "/Users/namratajha/GithubMe/Nuget-test/nuget-test.csproj",
         "projectName": "Nuget-test",
-        "projectPath": "/Users/namratajha/GithubMe/Nuget-test/Nuget-test.csproj",
+        "projectPath": "/Users/namratajha/GithubMe/Nuget-test/nuget-test.csproj",
         "packagesPath": "/Users/namratajha/.nuget/packages/",
         "outputPath": "/Users/namratajha/GithubMe/Nuget-test/obj/",
         "projectStyle": "PackageReference",

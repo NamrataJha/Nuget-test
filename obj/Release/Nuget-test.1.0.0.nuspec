@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Nuget-test</id>
+    <version>1.0.0</version>
+    <authors>namratajha</authors>
+    <description>Package Description</description>
+    <repository url="https://github.com/NamrataJha/Nuget-test" />
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/namratajha/GithubMe/Nuget-test/bin/Release/net5.0/nuget-test.dll" target="lib/net5.0/nuget-test.dll" />
+  </files>
+</package>
